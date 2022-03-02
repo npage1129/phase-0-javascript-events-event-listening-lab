@@ -11,3 +11,7 @@ input.addEventListener('click', clickAlert);
 addingEventListener();
 clickAlert();
 
+const frand = document.getElementById('input');
+input.addEventListener('click', function(){
+  alert('FUN!!!!');
+});
